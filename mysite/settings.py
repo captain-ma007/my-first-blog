@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-7gkxlxzfu%tausf@+sb#p#^f8)vk46ru1!pkq0-r1+!#f#_i16
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['capitana.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'capitana.pythonanywhere.com',  # 添加你的 PythonAnywhere 域名
+    '127.0.0.1',  # 保留本地开发环境
+    'localhost',  # 保留本地开发环境
+]
 
 
 # Application definition
